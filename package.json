@@ -1,0 +1,32 @@
+{
+  "name": "complete-authentication-system",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/shawaiz-khan/complete-authentication-system#readme",
+  "bugs": {
+    "url": "https://github.com/shawaiz-khan/complete-authentication-system/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shawaiz-khan/complete-authentication-system.git"
+  },
+  "license": "MIT",
+  "author": "Shawaiz Khan",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "cookie-parser": "^1.4.7",
+    "crypto": "^1.0.1",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "http-status-codes": "^2.3.0",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.3.0",
+    "morgan": "^1.10.1"
+  }
+}
